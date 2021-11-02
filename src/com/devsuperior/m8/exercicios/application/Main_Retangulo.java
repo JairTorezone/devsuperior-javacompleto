@@ -18,6 +18,7 @@ public class Main_Retangulo {
 		retangulo.height = sc.nextDouble();
 		
 		System.out.println(retangulo);
+		//classe principal
 	}
 
 }

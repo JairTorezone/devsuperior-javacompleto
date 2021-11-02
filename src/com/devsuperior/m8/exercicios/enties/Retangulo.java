@@ -17,7 +17,7 @@ public class Retangulo {
 		double diagonal = Math.pow(width, 2) + Math.pow(height, 2);
 		return Math.sqrt(diagonal);
 	}
-	
+	//metodos toString
 	@Override
 	public String toString() {
 		return "AREA = "+ String.format("%.2f",  area())+ "\n"
