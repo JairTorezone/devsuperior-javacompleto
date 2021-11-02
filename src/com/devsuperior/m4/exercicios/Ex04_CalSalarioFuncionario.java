@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Ex04_CalSalarioFuncionario {
 
 	public static void main(String[] args) {
+		//Ex04
+		
 		Scanner scan = new Scanner(System.in);
 		
 		int numerFuncionario;

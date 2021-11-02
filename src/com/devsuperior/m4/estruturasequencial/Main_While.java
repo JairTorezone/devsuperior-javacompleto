@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main_While {
 
 	public static void main(String[] args) {
-		
+		//Estrutura while
 		Scanner scan = new Scanner(System.in);
 
 		int x = scan.nextInt();
@@ -21,5 +21,6 @@ public class Main_While {
 
 		scan.close();
 	}
+	
 
 }

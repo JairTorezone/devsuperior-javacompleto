@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ex01_soma {
 
 	public static void main(String[] args) {
+		//Exercicios soma
 		Scanner scan = new Scanner(System.in);
 		
 		int num1 = scan.nextInt();

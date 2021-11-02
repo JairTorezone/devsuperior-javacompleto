@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ex05_ValorUnitario {
 
 	public static void main(String[] args) {
+		//Ex05
 		Scanner scan = new Scanner(System.in);
 		
 		int codigo1, qto1,codigo2, qto2;
