@@ -5,13 +5,18 @@ public class Produto {
 	public String name;
 	public double price;
 	public int quantity;
-	
-	
-	//Construtor
+
+	// Construtor
 	public Produto(String name, double price, int quantity) {
 		this.name = name;
 		this.price = price;
 		this.quantity = quantity;
+	}
+
+	// Construtor sobrecarga 2 parametros
+	public Produto(String name, double price) {
+		this.name = name;
+		this.price = price;
 	}
 
 	public double totalValueInStock() {
@@ -28,11 +33,7 @@ public class Produto {
 
 	@Override
 	public String toString() {
-		return name + ", " 
-					+ "$ " + String.format("%.2f", price) 
-					+ ", " 
-					+ quantity 
-					+ " units, Total: $ "
-					+ String.format("%.2f", totalValueInStock());
+		return name + ", " + "$ " + String.format("%.2f", price) + ", " + quantity + " units, Total: $ "
+				+ String.format("%.2f", totalValueInStock());
 	}
 }
