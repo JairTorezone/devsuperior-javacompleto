@@ -12,6 +12,8 @@ public class Main_Split {
 		System.out.println(fruts[1]);
 		System.out.println(fruts[2]);
 		System.out.println(fruts[3]);
+		
+		//Delimitadores
 	}
 
 }
