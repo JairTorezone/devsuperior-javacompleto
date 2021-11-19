@@ -18,7 +18,6 @@ public class Program {
 		Scanner scan = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		
-		String text = "ana";
 		
 		System.out.print("Enter department's name: ");
 		String departmentName = scan.nextLine();
