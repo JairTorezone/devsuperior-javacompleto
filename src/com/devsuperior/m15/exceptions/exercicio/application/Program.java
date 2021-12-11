@@ -13,8 +13,6 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner scan = new Scanner(System.in);
 		
-		
-		
 		try {
 			System.out.println("Enter account data");
 			System.out.print("Number: ");
