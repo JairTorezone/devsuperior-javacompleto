@@ -1,4 +1,4 @@
-package com.devsuperior.m19.genericsMaps.generics.problme1.application;
+package com.devsuperior.m19.genericsMaps.generics.problem1.application;
 
 import java.util.Scanner;
 
