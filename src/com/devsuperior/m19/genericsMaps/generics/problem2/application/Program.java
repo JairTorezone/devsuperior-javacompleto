@@ -1,4 +1,4 @@
-package com.devsuperior.m19.genericsMaps.generics.problema2.application;
+package com.devsuperior.m19.genericsMaps.generics.problem2.application;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import com.devsuperior.m19.genericsMaps.generics.problema2.entities.Product;
-import com.devsuperior.m19.genericsMaps.generics.problema2.services.CalculationService;
+import com.devsuperior.m19.genericsMaps.generics.problem2.entities.Product;
+import com.devsuperior.m19.genericsMaps.generics.problem2.services.CalculationService;
 
 public class Program {
 

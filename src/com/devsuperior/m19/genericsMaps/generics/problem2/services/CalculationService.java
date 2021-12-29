@@ -1,4 +1,4 @@
-package com.devsuperior.m19.genericsMaps.generics.problema2.services;
+package com.devsuperior.m19.genericsMaps.generics.problem2.services;
 
 import java.util.List;
 

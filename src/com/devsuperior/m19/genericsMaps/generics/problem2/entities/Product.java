@@ -1,4 +1,4 @@
-package com.devsuperior.m19.genericsMaps.generics.problema2.entities;
+package com.devsuperior.m19.genericsMaps.generics.problem2.entities;
 
 public class Product implements Comparable<Product> {
 
