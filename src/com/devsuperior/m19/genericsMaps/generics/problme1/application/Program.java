@@ -1,8 +1,8 @@
-package com.devsuperior.m19.genericsMaps.generics.application;
+package com.devsuperior.m19.genericsMaps.generics.problme1.application;
 
 import java.util.Scanner;
 
-import com.devsuperior.m19.genericsMaps.generics.services.PrintService;
+import com.devsuperior.m19.genericsMaps.generics.problem1.services.PrintService;
 
 public class Program {
 
