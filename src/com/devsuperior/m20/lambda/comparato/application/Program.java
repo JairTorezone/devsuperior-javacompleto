@@ -20,17 +20,23 @@ public class Program {
 //----------------------Classe separada implementando a interface----------------
 //		list.sort(new MyComparator());
 
-		// Class Anonymous
-		Comparator<Produto> comp = new Comparator<Produto>() {
-			@Override
-			public int compare(Produto p1, Produto p2) {
-				return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
-			}
+//----------------------Class Anonymous-------------------------------------------
+//		Comparator<Produto> comp = new Comparator<Produto>() {
+//			@Override
+//			public int compare(Produto p1, Produto p2) {
+//				return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
+//			}
+//		};
+//		
+//		list.sort(comp);
+		
+		
+//---------------------Lambda1 - Com return---------------------------------------- 		
+		Comparator<Produto> comp = (p1, p2) -> {
+			return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
 		};
 		
 		list.sort(comp);
-		
-		
 
 		for (Produto p : list) {
 			System.out.println(p);
