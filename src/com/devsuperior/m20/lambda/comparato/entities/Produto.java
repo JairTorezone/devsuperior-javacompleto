@@ -1,6 +1,6 @@
 package com.devsuperior.m20.lambda.comparato.entities;
 
-public class Produto implements Comparable<Produto> {
+public class Produto{
 
 	private String name;
 	private Double price;
@@ -36,9 +36,5 @@ public class Produto implements Comparable<Produto> {
 		return "Produto [name=" + name + ", price=" + price + "]";
 	}
 
-	@Override
-	public int compareTo(Produto o) {
-		return name.toUpperCase().compareTo(o.getName().toUpperCase());
-	}
 	
 }
