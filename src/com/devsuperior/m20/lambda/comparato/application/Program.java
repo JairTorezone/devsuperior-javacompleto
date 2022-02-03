@@ -17,18 +17,18 @@ public class Program {
 		list.add(new Produto("Iphone", 1900.00));
 		
 		
-//--------------------Classe separada implementando a interface--------------
+//----------------------Classe separada implementando a interface----------------
 //		list.sort(new MyComparator());
 
-//------------------- Class Anonymous-----------------------------------------
-//		Comparator<Produto> comp = new Comparator<Produto>() {
-//			@Override
-//			public int compare(Produto p1, Produto p2) {
-//				return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
-//			}
-//		};
-//		
-//		list.sort(comp);
+		// Class Anonymous
+		Comparator<Produto> comp = new Comparator<Produto>() {
+			@Override
+			public int compare(Produto p1, Produto p2) {
+				return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
+			}
+		};
+		
+		list.sort(comp);
 		
 		
 
