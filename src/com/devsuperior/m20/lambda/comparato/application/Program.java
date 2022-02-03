@@ -39,9 +39,13 @@ public class Program {
 //		list.sort(comp);
 		
 //---------------------Lambda2 - Sem return---------------------------------------- 			
-		Comparator<Produto> comp = (p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
-		list.sort(comp);
+//		Comparator<Produto> comp = (p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
+//		list.sort(comp);
+//		
+
 		
+//---------------------Lambda3 - Direto no argumento função--------------------------
+		list.sort((p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase()));
 
 		for (Produto p : list) {
 			System.out.println(p);
