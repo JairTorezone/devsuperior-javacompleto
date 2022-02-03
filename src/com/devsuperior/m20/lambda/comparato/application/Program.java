@@ -32,11 +32,16 @@ public class Program {
 		
 		
 //---------------------Lambda1 - Com return---------------------------------------- 		
-		Comparator<Produto> comp = (p1, p2) -> {
-			return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
-		};
+//		Comparator<Produto> comp = (p1, p2) -> {
+//			return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
+//		};
+//		
+//		list.sort(comp);
 		
+//---------------------Lambda2 - Sem return---------------------------------------- 			
+		Comparator<Produto> comp = (p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
 		list.sort(comp);
+		
 
 		for (Produto p : list) {
 			System.out.println(p);
