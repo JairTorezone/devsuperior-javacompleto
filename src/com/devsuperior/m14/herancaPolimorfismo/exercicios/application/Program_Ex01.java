@@ -26,7 +26,7 @@ public class Program_Ex01 {
 		int n = scan.nextInt();
 
 		for (int i = 1; i <= n; i++) {
-			System.out.println("Product #" + i + " data:");
+			System.out.println("Program #" + i + " data:");
 
 			System.out.print("Common, used or imported (c/u/i)? ");
 			char ch = scan.next().charAt(0);

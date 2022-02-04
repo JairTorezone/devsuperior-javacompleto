@@ -45,9 +45,9 @@ public class Main_OrderProct03 {
 		
 		for(int i = 1; i <= n; i++) {
 			System.out.println("Enter #" + i + " item data:");
-			System.out.print("Product name: " );
+			System.out.print("Program name: " );
 			String nameProduct = scan.nextLine();
-			System.out.print("Product price: " );
+			System.out.print("Program price: " );
 			double priceProduct = scan.nextDouble();
 			String.format("%.2f", priceProduct);
 			System.out.print("Quantity: " );

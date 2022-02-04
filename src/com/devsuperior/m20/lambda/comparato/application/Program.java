@@ -21,9 +21,9 @@ public class Program {
 //		list.sort(new MyComparator());
 
 //----------------------Class Anonymous-------------------------------------------
-//		Comparator<Produto> comp = new Comparator<Produto>() {
+//		Comparator<Product> comp = new Comparator<Product>() {
 //			@Override
-//			public int compare(Produto p1, Produto p2) {
+//			public int compare(Product p1, Product p2) {
 //				return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
 //			}
 //		};
@@ -32,14 +32,14 @@ public class Program {
 		
 		
 //---------------------Lambda1 - Com return---------------------------------------- 		
-//		Comparator<Produto> comp = (p1, p2) -> {
+//		Comparator<Product> comp = (p1, p2) -> {
 //			return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
 //		};
 //		
 //		list.sort(comp);
 		
 //---------------------Lambda2 - Sem return---------------------------------------- 			
-//		Comparator<Produto> comp = (p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
+//		Comparator<Product> comp = (p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
 //		list.sort(comp);
 //		
 

@@ -26,7 +26,7 @@ public class Main_Produto {
 		Produto product = new Produto(name, price);
 
 		System.out.println();
-		System.out.println("Product data: " + product);
+		System.out.println("Program data: " + product);
 
 		System.out.println();
 		System.out.print("Enter the number of products to be added in stock: ");

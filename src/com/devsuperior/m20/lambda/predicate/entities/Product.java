@@ -1,14 +1,13 @@
-package com.devsuperior.m20.lambda.comparato.entities;
+package com.devsuperior.m20.lambda.predicate.entities;
 
-public class Produto{
-
+public class Product {
 	private String name;
 	private Double price;
 	
-	public Produto() {
+	public Product() {
 	}
 	
-	public Produto(String name, Double price) {
+	public Product(String name, Double price) {
 		this.name = name;
 		this.price = price;
 	}
@@ -33,7 +32,7 @@ public class Produto{
 
 	@Override
 	public String toString() {
-		return "Product [name=" + name + ", price=" + price + "]";
+		return name  + ", " + String.format("%.2f", price);
 	}
 
 	
