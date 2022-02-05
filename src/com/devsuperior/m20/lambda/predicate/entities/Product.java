@@ -28,6 +28,10 @@ public class Product {
 		this.price = price;
 	}
 
+	public  boolean notStaticProductPredicate() {
+		return price >= 100;
+	}
+	
 	public static boolean staticProductPredicate(Product p) {
 		return p.getPrice() >= 100;
 	}
