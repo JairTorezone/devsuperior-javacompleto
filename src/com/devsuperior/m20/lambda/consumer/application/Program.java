@@ -3,9 +3,7 @@ package com.devsuperior.m20.lambda.consumer.application;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-import java.util.function.Consumer;
 
-import com.devsuperior.m20.lambda.consumer.util.PriceUpdate;
 import com.devsuperior.m20.lambda.consumer.entities.Product;
 
 public class Program {
@@ -22,13 +20,7 @@ public class Program {
 		
 		double value = 1.1;
 		
-		Consumer<Product> cons = p -> {
-			p.setPrice(p.getPrice() * value);
-		};
-		//ou 
-		//Consumer<Product> cons = p -> p.setPrice(p.getPrice() * value);
-		
-		list.forEach(cons);
+		list.forEach(p -> p.setPrice(p.getPrice() * value));
 		
 		list.forEach(System.out::println);
 		
